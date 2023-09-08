@@ -1,1 +1,1 @@
-# human-posture-detection
+# HUMAN POSTURE DETECTION
