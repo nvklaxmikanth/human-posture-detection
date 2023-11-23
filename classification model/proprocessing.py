@@ -166,7 +166,6 @@ csvs_out_path = "train_data.csv"
 train_preprocessor = Preprocessor(images_in_folder, csvs_out_path)
 train_preprocessor.process()
 
-# preprocessing testing data
 images_in_folder = os.path.join("human_poses", "test")
 csvs_out_path = "test_data.csv"
 test_preprocessor = Preprocessor(images_in_folder, csvs_out_path)

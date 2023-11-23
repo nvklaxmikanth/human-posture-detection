@@ -7,8 +7,8 @@ from data import Person
 from data import person_from_keypoints_with_scores
 import numpy as np
 
+
 try:
-  # Import TFLite interpreter from tflite_runtime package if it's available.
   from tflite_runtime.interpreter import Interpreter
 except ImportError:
   # If not, fallback to use the TFLite interpreter from the full TF package.
