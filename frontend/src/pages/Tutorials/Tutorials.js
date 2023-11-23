@@ -4,6 +4,8 @@ import './Tutorials.css'
 
 import { tutorials, fixCamera } from '../../utils/data'
 
+
+
 export default function Tutorials() {
     return (
         <div className="tutorials-container">
