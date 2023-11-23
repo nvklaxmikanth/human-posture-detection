@@ -21,7 +21,7 @@ export default function Instructions({ currentPose }) {
                 })}
             </ul>
             <img 
-                className="pose-demo-img"
+                className="pose-demo-imgs"
                 src={poseImages[currentPose]}
             />
         </div>

@@ -19,7 +19,7 @@ export default function Home() {
                 </Link>
             </div>
 
-            <h1 className="description">Yoga Pose Detection</h1>
+            <h1 className="description">Human Posture Detection</h1>
             <div className="home-main">
                 <div className="btn-section">
                     <Link to='/start'>
